@@ -12,6 +12,8 @@ $ go run main.go -port 9004
 2023/02/28 16:36:53 TCP connection received from: 127.0.0.1:51028
 ```
 
+By default the server listen on 127.0.0.1 only.
+This can be changed with argument **-addr**.
 Once the server is running you can test RESET behaviour:
 
 ```sh
